@@ -1,0 +1,243 @@
+<!DOCTYPE html >
+
+<html>
+<body background-color="grey">
+ <meta charset=utf-8>
+  <title>微微2</title>
+<style>
+body{
+   background-color:        grey;
+ }  
+
+#header{
+    background-color:        white;
+    height:                  100px;
+	width:                   1300px;
+	margin:                  10px;
+	border:                  solid white;
+	
+
+}
+
+	
+#biaoge1{
+    float:                    right;
+	
+	
+}
+#biaoge1 li{
+   float:                     left;
+   list-style-type:           none;
+   color:                     
+  
+ }  
+ 
+	
+#main1{
+    background-color:        white;
+	width:                   800px;
+	padding:                 10px;
+	border:                  solid;
+	margin:                  10px;
+}
+#main2{
+   background-color:         white;
+   width:                   800px;
+   border:                   solid;
+   padding:                  10px;
+   margin:                   10px ;
+  } 
+#pit{
+   background-color:         white;
+   width:                   800px;
+   padding:                  10px;
+   border:                   solid;
+   margin:                   10px;
+  } 
+#tu{ 
+   background-color:         white;
+   height:                   150px;
+   width:                    250px;
+   pading:                   10px;
+   border:                   solid;
+   margin:                   20px;
+}   
+#last{
+   background-color:         white;
+   width:                    800px;
+   padding:                  10px;
+   border:                   solid;
+   margin:                   10px;
+   
+  
+}
+#footer{
+   background-color:         white;
+   width:                    300px;
+   height:                   700px;
+   padding:                  10px;
+   border:                   solid;
+   margin:                   10px 65px;
+   float:                    right;
+}   
+#footer2{
+   background-color:         black;
+   color:                    white;
+   padding:                  10px;
+   margin:                   10px 0 10px;
+   text-align:               center;
+   
+}
+
+
+</style>
+
+   <div id="header">
+    <img src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=1322912466,2607748595&fm=206&gp=0.jpg" width="200px" height="100px">
+	
+      <ul id="biaoge1" >
+	
+	    
+		<li ><a href>网站链接一</a></li>
+		      
+		 <li><a href>网站链接二</a></li>
+		
+		 <li><a href>网站链接三</a></li>
+		
+         <li><a href>网站链接四</a></li> 
+		  
+
+
+	  </ul>
+    </div>
+	
+	<div id="footer">		
+		<h3>这里是一个侧栏，这是侧栏的标题<h3>
+		<h3>侧栏注册窗口标题<h3>
+		请输邮箱地址：<input name="textb" type="text"><br>
+		请输入密码：<input name="textc" type="password">
+		请再次确认密码：<input name="textc" type="password">
+		<p>密码为6位到16位字符</p><br>
+		性别：<input name="radio" type="radio"value="a1"/>男
+		      <input name="radio" type="radio"value="a2"/>女<br>
+		<tr>
+		     <td>城市：</td>
+			 <td>
+			 <select name="menu2" size="">
+			 <option value="2">北京</option>
+			 <option value="3">成都</option>
+			 <option value="4">上海</option>
+			 <option value="5">其他</option>
+			 </select>
+			 </td>
+			 <td></td>
+		</tr><br>
+		<tr>
+		    <td>爱好：</td>
+			    <td>
+				    <input name="check1" type="checkbox" value="sport">运动
+					<input name="check2" type="checkbox" value="art">艺术
+					<input name="check3" type="checkbox" value="music">音乐
+					<input name="check4"  type="checkbox"  value="others">其他
+				</td>
+        </tr>
+		
+	</div>		
+		
+	<div id="main1">        
+		 <h2>文章一级标题</h2>
+		 <h2>文章二级标题</h2>
+		 <h3>文章作者 写作时间<h3>
+		 <p>这是一个段落这是一个段落这是一个段落这是一个段落这是一个段落这是一个段落这是一个段落这是一个段落这是一个段落这是一个段落
+		 这是一个段落这是一个段落这是一个段落这是一个段落这是一个段落<a href="www.baidu.com">这里有一个链接到百度</a></p>
+		 <img src="http://pic35.nipic.com/20131121/2531170_145358633000_2.jpg" width="200" height="220">
+	</div>
+		  <div id="main2">
+		   <h2>另一篇文章的标题<h2>
+		   <h2>文章二级标题<h2>
+		   <p>这是一个段落这是一个段落这是一个段落这是一个段落这是一个段落这是一个段落这是一个段落这是一个段落这是一个段落这是一个段落
+		   这是一个段落这是一个段落这是一个段落这是一个段落这是一个段落这是一个段落<a  href="www.baidu.com">链接到百度</a></p>
+		   <img src="http://pic35.nipic.com/20131121/2531170_145358633000_2.jpg" width="200" height="220">
+		   
+		   <ul>
+		     <li>列表一<li>
+			 <li>列表二<li>
+			 <li>列表三<li>
+		   <ul>
+		 </div>
+		 </div>
+		 
+	<div id="pit">
+         		   
+		<h2>图片</h2><br>
+		
+		<div id="tu">
+		<p>好看的图片<p>
+		<img src="http://pic35.nipic.com/20131121/2531170_145358633000_2.jpg" width="150px" height="100px">
+		</div>
+		<div id="tu">
+		<p>好看的图片<p>
+		<img src="http://pic35.nipic.com/20131121/2531170_145358633000_2.jpg"width="150" height="100">
+		</div>
+		<div id="tu">
+		<p>好看的图片<p>
+		<img src="http://pic35.nipic.com/20131121/2531170_145358633000_2.jpg"width="150" height="100">
+		</div><div id="tu">
+		<p>好看的图片<p>
+		<img src="http://pic35.nipic.com/20131121/2531170_145358633000_2.jpg"width="150" height="100">
+		</div><div id="tu">
+		<p>好看的图片<p>
+		<img src="http://pic35.nipic.com/20131121/2531170_145358633000_2.jpg"width="150" height="100">
+		</div><div id="tu">
+		<p>好看的图片<p>
+		<img src="http://pic35.nipic.com/20131121/2531170_145358633000_2.jpg"width="150" height="100">
+		</div>
+	</div>
+	
+	<div id="last">
+		<h2>最后一篇文章的标题<h2>
+		<h2>文章二级标题<h2>
+		<h3>文章作者 文章发表时间<h3>
+		<ol>
+		    <li>排名一<li>
+			<li>排名二<li>
+			<li>排名三<li>
+		<table border="1">
+		   <tr>
+		       <th>表头<th>
+			   <th>表头<th>
+			   <th>表头<th>
+			<tr>
+            <tr>
+                <td>表内容单元格<td>
+				<td>表内容单元格<td>
+				<td>操作<td>
+			<tr>
+			<tr>
+            <tr>
+                <td>表内容单元格<td>
+				<td>表内容单元格<td>
+				<td>操作<td>
+			<tr>
+			<tr>
+            <tr>
+                <td>表内容单元格<td>
+				<td>表内容单元格<td>
+				<td>操作<td>
+			<tr>
+			<tr>
+			    <td>总计<td>
+				<td colspan="3">1000<td>
+			<tr>
+		</table>
+    </div>		
+	
+		
+			 
+	<div id="footer2">
+         版权所有&copy
+    </div>		 
+			  
+		 
+</body>		 
+</html>
